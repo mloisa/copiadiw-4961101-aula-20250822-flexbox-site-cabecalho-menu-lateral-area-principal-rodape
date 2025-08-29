@@ -57,8 +57,27 @@ nav {
     /* border: .2rem solid plum; */
     width: 15rem;
     background-color: #eee;
+    padding: .5rem;
 }
-
+.opcao{
+    display:flex;
+    border: .1rem solid green;
+    border-radius: .5rem;
+    padding: .6rem;
+    background-color: #ddd;
+}
+.icone-inicial{
+    border: .1rem solid red;
+    width: 1.5rem;
+}
+.rotulo{
+    border: .1rem solid rgb(138, 5, 190);
+}
+.icone-final{
+    border: .1rem solid rgb(255, 0, 221);
+    width: 1.5rem;
+    text-align: right;
+}
 main {
     /* border: .2rem solid orangered; */
     flex: 1;
