@@ -59,24 +59,39 @@ nav {
     background-color: #eee;
     padding: .5rem;
 }
+a{
+    text-decoration:none;
+}
 .opcao{
     display:flex;
-    border: .1rem solid green;
+    /* border: .1rem solid green; */
     border-radius: .5rem;
     padding: .6rem;
     background-color: #ddd;
+    color:#5e5e5e;
+}
+.opcao:hover{
+    background-color: #ccc;
+    color:black;
+    box-shadow: 0rem .3rem .3rem .01rem #ddd;
+}
+.opcao:hover .icone-final{
+    opacity: 1;
 }
 .icone-inicial{
-    border: .1rem solid red;
+    /* border: .1rem solid red; */
     width: 1.5rem;
 }
 .rotulo{
-    border: .1rem solid rgb(138, 5, 190);
+    /* border: .1rem solid rgb(138, 5, 190); */
+    flex: 1;
 }
 .icone-final{
-    border: .1rem solid rgb(255, 0, 221);
+    /* border: .1rem solid rgb(255, 0, 221); */
     width: 1.5rem;
     text-align: right;
+    opacity: 0;
+    transition: opacity .3seg ease;
 }
 main {
     /* border: .2rem solid orangered; */
