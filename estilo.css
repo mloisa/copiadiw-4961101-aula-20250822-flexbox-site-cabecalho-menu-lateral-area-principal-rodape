@@ -42,11 +42,37 @@ header {
 }
 
 #titulo {
+    /*border: .1rem solid white;*/
     font-size: 1.2rem;
     font-weight: bold;
     color: #eee;
+    flex: 1;
 }
-
+.menu-hamburguer{
+    display: flex;
+    width: 1.2rem;
+    height: 1.2rem;
+    /*border: 1px solid red;*/
+    padding: .7rem;
+    border-radius:100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(44, 44, 44);
+}
+.menu-hamburguer:hover{
+    background-color: #5e5e5e;
+}
+.menu-hamburguer:hover i{
+    color: #eee;
+}
+.menu-hamburguer i:hover{
+    color: white;
+}
+.menu-hamburguer i {
+    font-size:1.5rem;
+    color:#ccc;
+}
 section {
     /* border: .2rem solid purple; */
     display: flex;
